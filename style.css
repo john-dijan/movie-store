@@ -1,0 +1,571 @@
+@import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .active{
+    height: 574px;
+} */
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 80px;
+    font-family: 'Adobe Gothic Std';
+    padding: 20px 30px 0;
+}
+
+.logo{
+    display: flex;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu a{
+    text-decoration: none;
+    margin: 5px 25px 0;
+    opacity: .5;
+    transition: .5s;
+    position: relative;
+}
+
+.menu-bottom{
+    position: absolute;
+    background: #D8232A;
+    border-radius: 5px;
+    left: -27px;
+    top: 38px;
+    display: none;
+    width: 77px;
+    height: 25px;
+    text-align: center;
+}
+
+.menu-bottom h5{
+    color: white;
+
+}
+
+.menu-bottom:before{
+    content: '';
+    border-width: 6px;
+    border-color: transparent transparent #D8232A transparent;
+    top: -11px;
+    left: 30px;
+    border-style: solid;
+    position: absolute;
+}
+
+.menu a:hover{
+    opacity: 1;
+}
+
+.menu a:hover .menu-bottom{
+    display: block;
+}
+
+.profile{
+    display: flex;
+}
+
+.profile img{
+    width: 33px;
+    height: 33px;
+    cursor: pointer;
+}
+
+.profile a{
+    text-decoration: none;
+    margin: 0 5px 0 10px;
+    color: #3f444e;
+}
+
+.red-dot{
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    background: #D8232A;
+    border-radius: 50%;
+    left: 87.1%;
+    top: 20px;
+}
+
+.profile svg{
+    position: relative;
+    top: 2px;
+}
+
+.banner{
+    height: 530px;
+    background: url('img/banner.png') no-repeat;
+    background-size: cover;
+    font-family: 'Adobe Gothic Std';
+}
+
+.cast{
+    display: flex;
+    flex-direction: column;
+    padding: 190px 0 0 18px;
+}
+
+.actor-dots{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #EDEFF0;
+    margin: 6px 0;
+}
+
+.actor{
+    width: 28px;
+    height: 28px;
+    background: none;
+    margin-left: -6px;
+    display: flex;
+    cursor: pointer;
+}
+
+.actor:hover .tekst{
+    opacity: 1;
+}
+
+.actor > .tekst{
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    left: 50px;
+    transition: .3s;
+    opacity: 0;
+}
+
+button.watch-this{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    padding: 7px 23px;
+    border-radius: 6px;
+    outline: 0;
+    border: 0;
+    font-family: 'Adobe Gothic Std';
+    animation: name 5s linear infinite;
+    background: #D8232A;
+    margin: 0 0 0 75.3%;
+    transition: .5s;
+}
+
+button.watch-this:hover{
+    background: dodgerblue;
+}
+
+.premier{
+    height: 60px;
+    background: rgba(0,0,0,0.5);
+    margin-top: 95px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+
+.publish{
+    display: flex;
+}
+
+.publish h3{
+    color: white;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+.publish h4{
+    color: #D8232A;
+    font-size: 14px;
+    margin: 0 5px;
+}
+
+.publish svg{
+    margin: 7px 0 0 5px;
+}
+
+
+.likes{
+    display: flex;
+    color: white;
+}
+
+.likes h4{
+    margin: 0 10px;
+}
+
+.likes svg{
+    margin-top: 8px;
+}
+
+.films{
+    background: #EDEFF0;
+    padding: 10px 23px;
+    font-family: 'Adobe Gothic Std';
+}
+
+.search-data{
+    display: flex;
+    justify-content: space-between;
+}
+
+.trailers{
+    display: flex;
+    margin-top: 7px;
+}
+
+.search-data h2{
+    color: #3f444e;
+    font-size: 17px;
+}
+
+.trailers i{
+    font-family: 'calibri regular';
+    color: #73777D;
+}
+
+i.trail{
+    font-size: 15px;
+    color: #9B9FA7;
+    margin: 0 15px;
+}
+
+.iskat{
+    display: flex;
+}
+
+.iskat input{
+    border: 0;
+    border-bottom: 1px solid #808080;
+    height: 25px;
+    margin-top: 5px;
+    background: transparent;
+    outline: 0;
+    position: relative;
+}
+
+.iskat button{
+    border: 0;
+    outline: 0;
+    position: absolute;
+    right: 16px;
+    bottom: 8px;
+    cursor: pointer;
+}
+
+.iskat button:active{
+    transform: scale(.9);
+}
+
+.afisha{
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.content{
+    width: 206px;
+    position: relative;
+    height: 189px;
+    border-radius: 8px;
+    display: flex;
+    transition: .3s;
+    flex-wrap: wrap;
+    background: black;
+    margin: 100px 54.6px 80px 0px;
+    z-index: 1;
+}
+
+.content img{
+    width: 100%;
+}
+/* 
+.content-1{
+    margin-right: 10px;
+    margin-left: 0;
+} */
+
+.text{
+    display: flex;
+    width: 206px;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.likee{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 8px;
+    width: 206px;
+}
+
+.klass{
+    display: flex;
+    color: white;
+}
+
+.likee svg{
+    cursor: pointer;
+}
+
+.text h5.h5{
+    margin: 90px 25px 0;
+    font-size: 14px;
+}
+
+.about{
+    position: absolute;
+    background: white;
+    opacity: 0;
+    z-index: -1;
+    border-radius: 8px 8px 0 8px;
+    transition: .3s;
+    width: 206px;
+    top: -77%;
+    font-family: 'Adobe Gothic Std';
+}
+
+
+.vid-play{
+    background: #3F444E;
+    width: 33px;
+    border-radius: 0 8px 8px 8px;
+    height: 30px;
+    padding: 0px 8px;
+    float: right;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.vid-play:hover{
+    background: seagreen;
+}
+
+.hover-menu{
+    margin: 10px 0 0 15px;
+}
+
+.rate{
+    display: flex;
+}
+
+.rate h5{
+    margin-left: 5px;
+    margin-top: -5px;
+    color: #3f444e;
+    margin-left: 10px;
+}
+
+.stars{
+    display: flex;
+}
+
+.stars h5{
+    margin-right: 2px;
+    color: #3f444e;
+}
+
+.stars svg{
+    margin: 8px 0 0 3px;
+}
+
+.stars p{
+    font-family: 'calibri';
+    font-size: 15px;
+    margin: 4px 0 0 5px;
+}
+
+.content:hover .about{
+    opacity: 1;
+}
+
+.iWatch{
+    width: 850px;
+    height: 505px;
+    /* background: linear-gradient(to right, dodgerblue, seagreen); */
+    background: white;
+    position: fixed;
+    z-index: 1;
+    top: 50%;
+    transition: .3s;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    flex-wrap: wrap;
+    font-family: 'Adobe Gothic Std';
+}
+
+.close{
+    position: fixed;
+    top: 5%;
+    left: 80%;
+    cursor: pointer;
+}
+
+.close i{
+    color: red;
+    font-size: 40px;
+}
+
+.close i:active{
+    transform: scale(.9);
+}
+
+.video-pleer{
+    width: 560px;
+    height: 400px;
+    background: black;
+    margin: 1px 0 0 1px;
+}
+
+.video-pleer video{
+    width: 100%;
+    height: 400px;
+    outline: 0;
+    border: 0;
+}
+
+.like-share{
+    display: flex;
+    border-top: 1px solid black;
+    padding: 5px 3px 0;
+    flex-flow: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.symbol{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.symbol i{
+    color: rgba(0,0,0,0.7);
+    font-size: 30px;
+}
+
+
+.playlist{
+    width: 280px;
+    display: flex;
+    padding: 2px 0 0 0;
+    flex-flow: column wrap;
+    margin-left: 8.7px;
+    overflow: auto;
+}
+
+.asd{
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    width: 100%;
+    padding: 7px 3px 4px;   
+}
+
+.asd:hover{
+    background: linear-gradient(to right, dodgerblue, seagreen, orangered);
+}
+
+.asd:hover .img i{
+    opacity: 1;
+}
+
+.img{
+    width: 120px;
+    height: 80px;
+    position: relative;
+    transition: .3s;
+}
+
+.img span{
+    position: absolute;
+    left: 5px;
+    color: white;
+    top: 58px;
+    font-size: 13px;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+}
+
+.img i{
+    position: absolute;
+}
+
+.img i{
+    color: white;
+    font-size: 40px;
+    top: 18px;
+    left: 43px;
+    transition: .3s;
+    opacity: 0;
+}
+
+.list-text{
+    display: flex;
+    flex-flow: wrap column;
+    margin-top: -7px;
+    margin-left: 5px;
+}
+
+.nazvanie{
+    width: 550px;
+    display: flex;
+    flex-flow: wrap;
+    position: relative;
+    top: -12%;
+    margin-left: 1px;
+}
+
+.views{
+    display: flex;
+    margin-top: 8px;
+}
+
+.views a{
+    text-decoration: none;
+    display: flex;
+    color: black;
+}
+
+.views a:hover i{
+    color: royalblue;
+}
+
+.views i{
+    font-size: 30px;
+    margin-right: 6px;
+    color: rgba(0,0,0,0.7);
+    transition: .3s;
+}
+
+.watchs{
+    position: absolute;   
+    width: 100%;
+    user-select: none;
+    height: 1646px;
+    display: none;
+    top: 0;
+    z-index: 1;
+    /* background: rgba(0,0,0,0.8); */
+}
+
+.you{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5px 3px 0;
+    justify-content: space-between;
+}
