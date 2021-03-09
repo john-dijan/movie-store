@@ -15,7 +15,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     height: 80px;
-    font-family: 'Gothic A1', sans-serif';
+    font-family: 'Adobe Gothid Std';
     padding: 20px 30px 0;
 }
 
@@ -106,7 +106,7 @@
     height: 530px;
     background: url('img/banner.png') no-repeat;
     background-size: cover;
-    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Adobe Gothid Std';
 }
 
 .cast{
@@ -153,7 +153,7 @@ button.watch-this{
     border-radius: 6px;
     outline: 0;
     border: 0;
-    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Adobe Gothid Std';
     animation: name 5s linear infinite;
     background: #D8232A;
     margin: 0 0 0 75.3%;
@@ -212,7 +212,7 @@ button.watch-this:hover{
 .films{
     background: #EDEFF0;
     padding: 10px 23px;
-    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Adobe Gothid Std';
 }
 
 .search-data{
@@ -231,7 +231,7 @@ button.watch-this:hover{
 }
 
 .trailers i{
-    font-family: calibri;
+    font-family: 'calibri';
     color: #73777D;
 }
 
@@ -333,7 +333,7 @@ i.trail{
     transition: .3s;
     width: 206px;
     top: -77%;
-    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Adobe Gothid Std';
 }
 
 
@@ -381,7 +381,7 @@ i.trail{
 }
 
 .stars p{
-    font-family: calibri;
+    font-family: 'calibri';
     font-size: 15px;
     margin: 4px 0 0 5px;
 }
@@ -403,7 +403,7 @@ i.trail{
     transform: translate(-50%, -50%);
     display: none;
     flex-wrap: wrap;
-    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Adobe Gothid Std';
 }
 
 .close{
