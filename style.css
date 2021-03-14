@@ -14,7 +14,10 @@
         url('AdobeGothicStd-Bold.eot'),
         url('AdobeGothicStd-Bold.eot?#iefix') format('embedded-opentype'),
         url('AdobeGothicStd-Bold.otf') format('truetype');
-
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+}
 /* .active{
     height: 574px;
 } */
