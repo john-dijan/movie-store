@@ -327,7 +327,7 @@ i.trail{
     transition: .3s;
     flex-wrap: wrap;
     background: black;
-    margin: 100px 30px 80px 0px;
+    margin: 100px 50px 80px 0px;
     z-index: 1;
     user-select: none;
 }
