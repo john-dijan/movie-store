@@ -27,7 +27,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     height: 80px;
-    font-family: 'Adobe Gothid Std';
+    font-family: 'AdobeGothicStd-Bold';
     padding: 20px 30px 0;
 }
 
@@ -118,7 +118,7 @@
     height: 530px;
     background: url('img/banner.png') no-repeat;
     background-size: cover;
-    font-family: 'Adobe Gothid Std';
+    font-family: 'AdobeGothicStd-Bold';
 }
 
 .cast{
@@ -165,7 +165,7 @@ button.watch-this{
     border-radius: 6px;
     outline: 0;
     border: 0;
-    font-family: 'Adobe Gothid Std';
+    font-family: 'AdobeGothicStd-Bold';
     animation: name 5s linear infinite;
     background: #D8232A;
     margin: 0 0 0 75.3%;
@@ -224,7 +224,7 @@ button.watch-this:hover{
 .films{
     background: #EDEFF0;
     padding: 10px 23px;
-    font-family: 'Adobe Gothid Std';
+    font-family: 'AdobeGothicStd-Bold';
 }
 
 .search-data{
@@ -345,7 +345,7 @@ i.trail{
     transition: .3s;
     width: 206px;
     top: -77%;
-    font-family: 'Adobe Gothid Std';
+    font-family: 'AdobeGothicStd-Bold';
 }
 
 
@@ -415,7 +415,7 @@ i.trail{
     transform: translate(-50%, -50%);
     display: none;
     flex-wrap: wrap;
-    font-family: 'Adobe Gothid Std';
+    font-family: 'AdobeGothicStd-Bold';
 }
 
 .close{
