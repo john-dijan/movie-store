@@ -4,7 +4,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
+
+@font-face {
+    font-family: 'AdobeGothicStd-Bold';
+    src:url('AdobeGothicStd-Bold.woff') format('woff'),
+        url('AdobeGothicStd-Bold.woff2') format('woff2'),
+        url('AdobeGothicStd-Bold.eot'),
+        url('AdobeGothicStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('AdobeGothicStd-Bold.otf') format('truetype');
 
 /* .active{
     height: 574px;
