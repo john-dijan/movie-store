@@ -245,6 +245,7 @@ button.watch-this:hover{
 .likes{
     display: flex;
     color: white;
+    user-select: none;
 }
 
 .likes h4{
